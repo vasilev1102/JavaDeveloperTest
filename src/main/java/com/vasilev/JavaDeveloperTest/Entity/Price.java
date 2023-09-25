@@ -20,12 +20,12 @@ import lombok.Setter;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "prices")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @RequiredArgsConstructor
+@Table(name = "prices")
 public class Price {
 
     @Id
